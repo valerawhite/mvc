@@ -1,3 +1,4 @@
---Install sql file in your database /n
---And update connect to database in file '/mvc/Models/bd.php' /n
+--Install sql file in your database <br>
+
+--And update connect to database in file '/mvc/Models/bd.php' <br>
 mvc is root folder
