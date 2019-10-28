@@ -1,0 +1,75 @@
+		.main {
+			display: flex;
+			justify-content: center;
+		}
+		.container {
+			margin-top: 15px;
+			min-width: 768px;
+		}
+		.title {
+			color: white;
+			background: linear-gradient(to top, #489a9a, #2e6161);
+		}
+		.title,.task {
+			border: 1px solid #4e6373;
+			padding: 8px;
+			text-align: center;
+		}
+		header {
+			background: #423c3c;
+			border-bottom: 1px solid silver;
+		}
+		#sign, .button_task a, .button_create_task {
+			padding: 5px;
+			margin: 20px;
+			background: linear-gradient(to top, #489a9a, #2e6161);
+			border: none;
+			color: white;
+			text-align: center;
+			text-decoretion: none;
+		}
+		.button_task a, .button_create_task {
+			margin: 20px 0 20px 0;
+		}
+		#popup input {
+			margin-bottom: 10px;
+		}
+		.success_create_task {
+			padding: 0 0 5px 0;
+			color: green;
+		}
+		.error {
+			color: red;
+		}
+		.error2 {
+			color: #b9a9a9;
+			display: none;
+		}
+		/* Для страницы авторизации */
+		
+		.wrap_form {
+			background: #6f6d6b;
+			color: white;
+			margin-top: 15%;
+			border: 1px solid silver;
+			height: 200px;
+		}
+		.wrap_form form {
+			text-align: center;
+		}
+		.wrap_form span {
+			display: block;
+			margin: 12px 0 12px 0;
+		}
+		.wrap_form input {
+			margin-bottom: 5px;
+		}
+		.wrap_form input[type="submit"] {
+			background: linear-gradient(to top, #489a9a, #2e6161);
+			border: none;
+			color: white;
+			padding: 4px;
+		}
+		.edit_form  input{
+			margin-bottom: 7px;
+		}
